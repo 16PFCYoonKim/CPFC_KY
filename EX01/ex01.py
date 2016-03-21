@@ -1,2 +1,4 @@
-print "Hello world"
-print "Yoon Kim"
+
+print "Hello World"
+print "Kim Yoon"
+
