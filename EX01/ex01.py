@@ -1,4 +1,5 @@
 
 print "Hello World"
-print "Kim Yoon"
-
+print "Hello again"
+print "I like typing this"
+print "This is fun"
