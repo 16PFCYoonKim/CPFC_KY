@@ -18,7 +18,7 @@ print "Roosters", 99-42*2%9
 print "Now I will count my eggs:"
 
 # 계란의 수가 5+4+1-3+7%3(3으로 나눈 나머지)-1/4+3개가 있었다고함
-# 계산해보니 11개
+# 계산해보니 11개 하지만 0.25는 누락됨 <<< 1.0/4로 해놓으면 해결됨
 print 5+4+1-3+7%3-1/4+3
 
 # 부등식 3+2<5-9가 참인가를 물어봄
@@ -40,9 +40,11 @@ print "How about some more."
 # 부등식 5>-2 가 맞냐고 물어봄
 # 맞음
 print "Is it grater?", 5>-2
+
 # 부등식 5>=-2 가 맞냐고 물어봄
 # 맞음
 print "Is it greater or equal?", 5>=-2
+
 # 부등식 5<-2가 맞냐고 물어봄
 # 틀림
 print "Is it less or equal?", 5<=-2
