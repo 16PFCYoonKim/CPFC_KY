@@ -1,3 +1,4 @@
+#-*-coding:cp949
 def add (a, b):
     print "ADDING %d + %d" % (a, b)
     return  a + b
@@ -26,6 +27,6 @@ print "Age: %d, Height: %d, Weight: %d, IQ: %d " % (age, height, weight, IQ)
 # A puzzle for the extra credit,type it in anyway.
 print "Here is a puzzle."
 
-what = add (age, subtract(height, multiply(weight, divide(IQ, 2))))
+what = add (age, subtract(height, multiply(weight, divide(IQ, 2)))) #devide°¡ ¸ÕÀú½ÇÇÛ
 
 print "That's becomes: ", what, "Can you do it by hand?"
